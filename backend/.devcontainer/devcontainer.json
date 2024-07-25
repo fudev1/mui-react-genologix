@@ -1,0 +1,36 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/postgres
+{
+  "name": "Genologix Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "django",
+  "workspaceFolder": "/workspaces",
+
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // "features": {},
+
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  // This can be used to network with other containers or the host.
+  "forwardPorts": [8000, 3306],
+
+  // Use 'postCreateCommand' to run commands after the container is created.
+  // "postCreateCommand": "pip install --user -r requirements.txt",
+  "postStartCommand": "python manage.py runserver 0.0.0.0:8000",
+
+  // Configure tool-specific properties.
+  "customizations": {
+    "vscode": {
+      // Extensions to enhance coding efficiency and provide essential tools directly in the IDE.
+      "extensions": [
+        "ms-python.python", // Provides rich Python support including linting, intellisense, and debugging.
+        "ms-vscode-remote.remote-containers" // Required for using Dev Containers.
+      ]
+      // "settings": {
+      //   "terminal.integrated.shell.linux": "/bin/bash"
+      // }
+    }
+  },
+
+  // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+  "remoteUser": "myuser"
+}

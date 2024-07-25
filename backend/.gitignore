@@ -1,3 +1,5 @@
 /venv/
+.env
 poumon.h5
 heart.joblib
+heart.zip
