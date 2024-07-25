@@ -16,3 +16,5 @@ Genologix combines the power of AI with modern web technologies to deliver a sea
 - **Backend:** Django and Django REST Framework to handle data processing and API endpoints.
 - **Frontend:** React with Material-UI for a responsive and user-friendly interface.
 - **Database:** MySQL for robust and reliable data storage.
+
+https://drive.google.com/drive/folders/1cjXVpvgkfYryn0bAfFUE1dKxsp65AqpG?usp=drive_link
