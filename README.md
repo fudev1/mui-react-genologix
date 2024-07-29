@@ -1,20 +1,50 @@
 # mui-react-genologix
 
-AI-Driven Heart and Lung Disease Prediction
-
-# Genologix
-
-Welcome to Genologix, an innovative AI-powered project aimed at predicting heart disease and lung cancer. This repository includes everything you need to understand, set up, and contribute to this project.
-
-## Project Overview
-
-Genologix combines the power of AI with modern web technologies to deliver a seamless health prediction experience. Our goal is to assist healthcare professionals by providing an additional tool for early detection and diagnosis of heart and lung conditions.
+Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
+**Note:** Ce projet a été réalisé sur une courte durée lors d'une formation à Technocité (Développeur, intégrateur IA).
 
 ## Features
 
-- **AI Models:** Trained machine learning models for heart disease and lung cancer prediction.
-- **Backend:** Django and Django REST Framework to handle data processing and API endpoints.
-- **Frontend:** React with Material-UI for a responsive and user-friendly interface.
-- **Database:** MySQL for robust and reliable data storage.
+- **IA:** Modèles pour prédire les maladies cardiaques et pulmonaires.
+- **Backend:** Django et Django REST Framework.
+- **Frontend:** React avec Material-UI.
+- **Base de données:** MySQL.
 
-https://drive.google.com/drive/folders/1cjXVpvgkfYryn0bAfFUE1dKxsp65AqpG?usp=drive_link
+## Lancer le projet
+
+### Prérequis
+
+- Docker
+- Node.js
+- Télécharger les modèles de prédiction de maladies cardiaques et pulmonaires [ici](https://drive.google.com/drive/folders/1cjXVpvgkfYryn0bAfFUE1dKxsp65AqpG?usp=drive_link).
+
+1. Clonez le dépôt :
+
+   ```bash
+   git clone https://github.com/fudev1/mui-react-genologix.git
+   cd mui-react-genologix
+   ```
+
+2. Backend avec Docker :
+
+   - Assurez-vous que Docker est installé et en cours d'exécution.
+   - Allez dans le dossier backend :
+     ```bash
+     cd backend
+     ```
+   - Placez les fichiers de prédictions `heart.joblib` et `poumon.h5` à la racine du dossier `backend`.
+   - Construisez et lancez les services Docker :
+     ```bash
+     docker-compose up -d --build
+     ```
+   - Initialisez la base de données :
+     ```bash
+     docker-compose exec django python manage.py migrate
+     ```
+
+3. Frontend:
+   ```bash
+   cd ../frontend
+   npm install
+   npm start
+   ```
