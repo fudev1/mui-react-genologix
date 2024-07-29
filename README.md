@@ -41,10 +41,14 @@ Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
      ```bash
      docker-compose exec django python manage.py migrate
      ```
+   - Lancez le serveur Django :
+     ```bash
+     docker-compose exec django python manage.py runserver
+     ```
 
 3. Frontend:
    ```bash
    cd ../frontend
    npm install
-   npm start
+   npm run dev
    ```
