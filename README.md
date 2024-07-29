@@ -30,7 +30,15 @@ Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
    cd mui-react-genologix
    ```
 
-2. Backend avec Docker :
+2. Créez un fichier `.env` à partir du fichier d'exemple :
+
+   ```bash
+   cp backend/.env.example backend/.env
+   ```
+
+   Ensuite, modifiez le fichier `.env` avec les valeurs appropriées.
+
+3. Backend avec Docker :
 
    - Assurez-vous que Docker est installé et en cours d'exécution.
    - Allez dans le dossier backend :
@@ -51,7 +59,7 @@ Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
      docker-compose exec django python manage.py runserver
      ```
 
-3. Frontend:
+4. Frontend:
    ```bash
    cd ../frontend
    npm install
