@@ -5,8 +5,8 @@ import {
   DASHBOARD_SIDEBAR_BOTTOM_LINKS,
 } from "../lib/navigation";
 import { Link, useLocation } from "react-router-dom";
+import NavButton from "./sidenav/NavButton";
 
-import NavButton from "./SideNav/NavButton";
 const SideNav = () => {
   const location = useLocation();
   return (
