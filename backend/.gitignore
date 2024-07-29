@@ -1,7 +1,0 @@
-/venv/
-.env
-poumon.h5
-heart.joblib
-heart.zip
-__pycache__
-migrations
