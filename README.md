@@ -15,7 +15,9 @@
 
 Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
 
-**Note:** Ce projet a été réalisé sur une courte durée lors d'une formation à Technocité (Développeur, intégrateur IA).
+**Note: Ce projet a été réalisé sur une courte durée lors d'une formation à Technocité (Développeur, intégrateur IA).**
+
+![Image title](https://github.com/fudev1/mui-react-genologix/blob/main/sources/home.png)
 
 ![Image title](https://github.com/fudev1/mui-react-genologix/blob/main/sources/heart-predict.gif)
 
