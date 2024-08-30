@@ -10,6 +10,7 @@
 - [ ] React : composants (structure)
 - [ ] Mui : styling (structure)
 - [ ] UI : Rendre fonctionnel la page home
+- [x] Dockeriser le backend
 - [ ] Dockeriser le frontend
 
 Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
