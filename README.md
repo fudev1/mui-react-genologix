@@ -18,6 +18,8 @@ Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
 
 ![Image title](https://github.com/fudev1/mui-react-genologix/blob/main/sources/heart-predict.gif)
 
+![Image title](https://github.com/fudev1/mui-react-genologix/blob/main/sources/lung-predict.gif)
+
 ## Features
 
 - **IA:** Modèles pour prédire les maladies cardiaques et pulmonaires.
