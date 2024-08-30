@@ -1,7 +1,22 @@
 # mui-react-genologix
 
+## Next todo
+
+**Refactoriser le projet**
+
+[ ]. --- Django : structure des applications
+[ ]. --- Django : changer le système d'authentification > token JWT
+[ ]. --- React : architecture du projet
+[ ]. --- React : composants (structure)
+[ ]. --- Mui : styling (structure)
+[ ]. --- UI : Rendre fonctionnel la page home
+[ ]. --- _D'autres points à prendre en compte_
+[ ]. Dockeriser le frontend
+
 Prédiction de maladies cardiaques et pulmonaires alimentée par l'IA
 **Note:** Ce projet a été réalisé sur une courte durée lors d'une formation à Technocité (Développeur, intégrateur IA).
+
+![Image title](#)
 
 ## Features
 
